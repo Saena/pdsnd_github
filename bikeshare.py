@@ -24,7 +24,7 @@ def get_valid_input(valid_input):
         return choice
     else:
         # user input is not valid - request valid input recursive
-        print("Sorry this is not a valid input. Must be one of the following "
+        print("Sorry this is not a valid input. It must be one of the following "
               "values:")
         print(valid_input)
         choice = get_valid_input(valid_input)
