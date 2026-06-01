@@ -10,7 +10,7 @@ Replace the Project Title
 Udacity Github Course Submission
 
 ### Files used
-Include the files used
+`.csv` files with bike share data are used to run defined analytics.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
