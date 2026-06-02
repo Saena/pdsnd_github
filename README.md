@@ -11,5 +11,7 @@ Udacity Github Course Submission
 `.csv` files with bike share data are used to run defined analytics.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits go to Udacity to provide:
+- learning material to learn coding 
+- work with related tools.
 
