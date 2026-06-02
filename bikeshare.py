@@ -230,7 +230,7 @@ def raw_data(df):
     start_index = 0  # start index
 
     if total == 0:
-        print("No rows to display.")
+        print("There are no rows to display.")
         return
 
     # Ask user if raw data shall be displayed
