@@ -70,7 +70,7 @@ def get_filters():
     day = get_valid_input(["monday", "tuesday", "wednesday", "thursday",
                            "friday", "saturday", "sunday", "all"])
 
-    print('-'*30)
+    print('-'*40)
     return city, month, day
 
 
@@ -138,7 +138,7 @@ def time_stats(df):
           + str(pd.to_datetime(df['Start Time']).dt.hour.mode()[0]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*30)
+    print('-'*40)
 
 
 def station_stats(df):
@@ -161,7 +161,7 @@ def station_stats(df):
           + " -> " + str(most_common_pair.index[0][1]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*30)
+    print('-'*40)
 
 
 def trip_duration_stats(df):
@@ -179,7 +179,7 @@ def trip_duration_stats(df):
           + str(int(df['Trip Duration'].mean())))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*30)
+    print('-'*40)
 
 
 def user_stats(df):
@@ -219,7 +219,7 @@ def user_stats(df):
         print("No birth year data available in this dataset.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*30)
+    print('-'*40)
 
 
 def raw_data(df):
@@ -270,7 +270,7 @@ def raw_data(df):
             if start_index >= total:
                 print("\nEnd of data.")
 
-    print('-'*30)
+    print('-'*40)
 
 
 def main():
