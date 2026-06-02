@@ -1,10 +1,8 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
 2026-06-01
 
 ### Project Title
-Replace the Project Title
+Bikeshare Analysis
 
 ### Description
 Udacity Github Course Submission
@@ -13,5 +11,7 @@ Udacity Github Course Submission
 `.csv` files with bike share data are used to run defined analytics.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits go to Udacity to provide:
+- learning material to learn coding 
+- work with related tools.
 
